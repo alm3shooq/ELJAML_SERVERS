@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ELJAML SERVERS</title>
+</head>
+<body>
+<script>
+  if (window.location.pathname.toLowerCase() === "/eljaml.apk") {
+    window.location.replace(
+      "https://github.com/alm3shooq/ELJAML_SERVERS/releases/latest/download/ELJAML.apk"
+    );
+  } else {
+    document.body.innerHTML = "<h1>404</h1><p>File not found</p>";
+  }
+</script>
+</body>
+</html>
